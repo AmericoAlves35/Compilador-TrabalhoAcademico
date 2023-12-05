@@ -1,3 +1,9 @@
+# Teoria da Computação e Compiladores - Paulista Noturno
+DESENVOLVIMENTO DE COMPILADOR
+PROF. FERNANDO KAKUGAWA
+
+
+
 Alunos 8° semestre Paulista I Ciência da Computação (noturno):
 125111361572 - Alan Morais Coutinho
 125111352073 - Amanda Rodrigues Velloso Santana
