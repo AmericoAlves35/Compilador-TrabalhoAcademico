@@ -1,0 +1,42 @@
+iniciar
+{
+    inteiro a;
+    inteiro contador;
+    decimal b;
+    texto c;
+    b = 1.5;
+    c = "Olá, ";
+
+    mostrar("Digite um número para 'a':");
+    a = pegar(a);
+    mostrar("valor de 'a' atribuido em: " + a);
+    mostrar("valor de 'b' e de: " + b);
+    mostrar("valor de 'c' e de: " + c);
+
+    se(a > 5){
+        mostrar("a é maior que 5");
+    } else {
+        mostrar("a é menor ou igual a 5");
+    }
+
+    enquanto(b > 0.0){
+        mostrar("Valor de 'b' agora e: " + b);
+        b = b - 0.5;
+    }
+
+    paracada(contador = 0, contador < 5, contador = contador + 1){
+        mostrar("Valor de 'contador' agora e: " + contador);
+    }
+
+    mostrar("Digite um número para 'a' novamente:");
+    a = pegar(a);
+    mostrar("Valor de 'a' agora e: " + a);
+
+    a = a * 2 + 5;
+    mostrar("Valor de 'a' apos a seguinte operacao (a * 2 + (a + 3) / 5) e de: " + a);
+
+    mostrar("complete a variavel 'c' que contem - " + c + " com qualquer coisa");
+    c = c + pegar(c);
+    mostrar("Valor de 'c' agora e: " + c);
+}
+finalizar
